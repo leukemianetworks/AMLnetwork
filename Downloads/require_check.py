@@ -17,11 +17,15 @@
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-
+# This program is intended to aid users in determining 
+# which python packages need to be installed to run multidatanetanalysis.py
 
 installed_list = []
 need_list= []
+
+# can it be installed
 def mod (name):
+	# if it can be imported, it is already installed, else output that it needs to be downloaded separately 
 	try:
 		__import__(name)
 		installed_list.append(name)
