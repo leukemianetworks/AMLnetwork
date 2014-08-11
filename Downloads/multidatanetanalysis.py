@@ -1,6 +1,25 @@
-# multidatanetanalysis.py Version 2.0
+#    multidatanetanalysis.py
+#    Copyright (C) 2014  LeukemiaNetworks
+
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License Version 2 
+#    as published by the Free Software Foundation.
+
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License along
+#    with this program; if not, write to the Free Software Foundation, Inc.,
+#    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+
 # All mentions to GRN (Gene Regulatory Network) are referenced as
 # TFG in the paper on arxiv. http://arxiv.org/ftp/arxiv/papers/1407/1407.6959.pdf
+
+
 # Import Libraries
 import os
 import shutil
